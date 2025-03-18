@@ -4,6 +4,7 @@ public class BreakAndContinue {
     public static void main(String[] args) {
         for (int i = 1; i <= 9; i++) {
             if (i == 3) {
+                //immediately exists the loop if condition met
                 break;
             }
             System.out.println("Break");
